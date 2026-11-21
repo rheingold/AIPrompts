@@ -71,6 +71,8 @@ S2.8.2 runnable/markup/scripting-enabled documents (incl. comments and metadata)
 S2.8.3 [only the S2.8.b,c]CVS(cvs,svn,git..)/CMS and tracking(sharepoint,wiki KBs)/other versioning commited/pushed/published data/files/metadata/headers/comments, use ignore patterns (.gitignore etc.) where available
 
 ## S3 ACTIONS DISCIPLINE
+S3.0 [any] Prefer internal pattern-comparison if possible to the given inputs (referenced there) over external tools/commands for diffs/comparisons; use them only to read inputs or write final outputs.
+S3.0.1 [any] If context sizing and performance too small in comparison, offer alternatives to user if (referenced) inputs too large.
 S3.1 [any] If you can carry out any action through tooling, and it is only non-destructive (reading, displaying, loading information, including web search or fetch) do not profile or recapitulate and ask, but simply carry the action out right away.
 S3.1.1 [any] The only (read-only/search etc.) actions requiring users authorization (once in a context or a tree of delegated contexts) are those that might have impact on:
 S3.1.1.1. data services - writing, change, deletition, authorized access login, remote CLI etc., 
