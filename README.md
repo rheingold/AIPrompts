@@ -18,7 +18,7 @@ This repository contains AI system prompts curated by **[Rheingold](https://gith
 
 ## Origin & Purpose
 
-These prompts are the result of nearly two years of hands-on experience with AI-operated web development and the resulting code. They encode lessons learned from common pitfalls, misconfigurations, and architectural mistakes that arise when AI agents are given insufficient or ambiguous guidance.
+These prompts are the result of nearly two years of hands-on experience with AI-operated (partially web, mostly Win32 apps) development and the resulting code. They encode lessons learned from common pitfalls, misconfigurations, and architectural mistakes that arise when AI agents are given insufficient or ambiguous guidance.
 
 The goal is to provide structured, evidence-based prompts that enforce discipline in:
 
@@ -47,11 +47,32 @@ The goal is to provide structured, evidence-based prompts that enforce disciplin
 
 ## Usage
 
-1. Clone this repository.
-2. Select the appropriate prompt file for your use case.
-3. Set the file content as the AI system prompt (or role/skill instruction) in your target AI client.
-4. Refer to [`user_manual_for_AI.md`](user_manual_for_AI.md) for setup and configuration guidance.
+1. Copy the files, mostly the XXXX#.#... numbered items. Sometemise in role-based systems there are two descriptors (identity and rules, so split it). Do not copy "MY ORIGINAL" text, those are only backups. You need not necessarily to copy the "tempaltes" part of the tempaltes .md.
+2. Paste it into the client(s) system/assistent/agent/mode/role prompt.
+3. Cross your fingers and hope for the best.
 
 ## License
 
-Private repository — all rights reserved.
+This project is licensed under the [MIT License](LICENSE).
+
+### MIT License
+
+Copyright (c) 2026 Rheingold
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
